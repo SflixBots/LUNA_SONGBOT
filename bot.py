@@ -26,9 +26,4 @@ pbot = pyrogram.Client(
        sleep_threshold=5,
    )
 
-        
-
-
-
-app = pbot()
-app.run()
+pbot.run()
